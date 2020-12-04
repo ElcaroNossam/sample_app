@@ -49,11 +49,10 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'sqlite3'
-  gem 'rspec-rails', '~> 4.0.1'
-  gem 'guard-rspec', require: false
   gem "factory_bot"
   gem 'guard'
   gem 'minitest-reporters'
+  gem 'rails-controller-testing'
 end
 
 group :development do
