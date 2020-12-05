@@ -76,6 +76,12 @@ p {
   }
 }
 
+#roc {
+  font-weight: bold;
+a {
+  color: gray;
+}
+}
 /* footer */
 
 footer {
@@ -174,4 +180,18 @@ input, textarea, select, .uneditable-input {
     .form-control {
       color: $state-danger-text;
     }
+  }
+  .checkbox {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    span {
+      margin-left: 20px;
+      font-weight: bold;
+    }
+  }
+  
+  #session_remember_me {
+    width: auto;
+    margin-left: 0;
+    margin-top: -3px;
   }
