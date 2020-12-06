@@ -17,8 +17,10 @@ class UsersController < ApplicationController
   end
 
   def create
+    
     @user = User.new(user_params)    # Не окончательная реализация!
     if @user.save
+      @user.send_activation_email
       UserMailer.account_activation(@user).deliver_now
       flash[:info] = "Please check your email to activate your account."
       redirect_to root_url
