@@ -1,0 +1,9 @@
+development:
+  cloud_name: "elcaronossam"
+  api_key: "212732786479357"
+  api_secret: "2N7O4mLYfPxojE1wJeERJZeLb1Q"
+ 
+production:
+  cloud_name: "elcaronossam"
+  api_key: "212732786479357"
+  api_secret: "2N7O4mLYfPxojE1wJeERJZeLb1Q"
